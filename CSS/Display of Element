@@ -1,0 +1,45 @@
+<Div>
+-height, width : n px or n%;
+-css가 들어가지 않는 이상 별 기능 없음
+
+
+
+<The Box Model>
+border : do not encrouch to the w/h ->actual w/h get wider
+padding : affect total w/h of content
+margin : 다른 element 와의 구분
+
+------------------------------------------------
+|                     margin                   |
+|      _________border_________________        |
+|     |     ______________________     |       |
+|     |    |                      |    |       | 
+|     |    |   content            |    |       |
+|     |    |                      |    |       | 
+|     |    |______________________|    |       |
+|     |_____________padding____________|       | 
+|                                              |
+|                                              |
+|-----------------------------------------------
+
+
+
+
+*block element 
+ex<p> : block other element on the same line
+*inline display element : take up as much as they are needed
+ex.<span>,<img>,<a> ->단점 : cannot apply width/height
+     |_>span is like div :CSS가 들어가지 않는 이상 별기능 없음
+     
+     
+     
+ 
+=====Change <display> value=====
+
+-block
+-inline
+-inline-block =>combination of both=>BEST!
+-none : remove element(vs. visibility:hidden;-> element는 사라지나 그 공간은 남아 있음)
+
+
+
