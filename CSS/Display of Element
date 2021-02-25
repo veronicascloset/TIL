@@ -42,4 +42,30 @@ ex.<span>,<img>,<a> ->단점 : cannot apply width/height
 -none : remove element(vs. visibility:hidden;-> element는 사라지나 그 공간은 남아 있음)
 
 
+<Display Determination>
+
+1. Content is Everything.
+2. Orders from code.
+3. Children Sit on parents.
+
+<Position>
+
+
+-Static : Default
+
+
+-Relative : Top/Bottom/Left/Right
+->Relative to where element must've been displayed
+->Does not affect any other element
+원래 자리도 그대로 남아있음
+
+
+-Absolute : position relative to its parent.
+원래 있던 자리는 사라짐
+->it's a easier way but usallly use combination of both
+
+
+-Fixed : 스크롤을 내려도 그자리 그대로 있는 것. relative to the body
+
+
 
